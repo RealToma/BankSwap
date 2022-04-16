@@ -1,0 +1,38 @@
+{
+  "name": "PancakeSwap Default List",
+  "timestamp": "2021-05-06T00:00:00Z",
+  "version": {
+    "major": 3,
+    "minor": 0,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "https://pancakeswap.finance/logo.png",
+  "keywords": ["pancake", "default"],
+  "tokens": [
+    {
+      "name": "USDC",
+      "symbol": "USDC",
+      "address": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+      "chainId": 25,
+      "decimals": 6,
+      "logoURI": ""
+    },
+    {
+      "name": "USDC",
+      "symbol": "USDC",
+      "address": "0x3dB9Cce7cbcaC3839a13920113F2811D55c26813",
+      "chainId": 97,
+      "decimals": 6,
+      "logoURI": ""
+    },
+    {
+      "name": "BUSD",
+      "symbol": "BUSD",
+      "address": "0xaFb59BFbF41D74367C011223907C096eDAD257e2",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": ""
+    }
+  ]
+}

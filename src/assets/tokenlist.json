@@ -1,0 +1,18 @@
+[
+  {
+    "name": "CRO",
+    "symbol": "CRO",
+    "address": "",
+    "chainId": 25,
+    "decimals": 18,
+    "logo": "https://bankswap.crobank.net/images/tokens/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23.png"
+  },
+  {
+    "name": "USDC Token",
+    "symbol": "USDC",
+    "address": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+    "chainId": 25,
+    "decimals": 6,
+    "logo": "https://bankswap.crobank.net/images/tokens/0xc21223249CA28397B4B6541dfFaEcC539BfF0c59.png"
+  }
+]
