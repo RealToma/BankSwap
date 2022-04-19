@@ -22,6 +22,7 @@ import history from './routerHistory'
 // Views included in the main bundle
 import Pools from './views/Pools'
 import Swap from './views/Swap'
+import Dashboard from './views/Dashboard'
 import {
   RedirectDuplicateTokenIds,
   RedirectOldAddLiquidityPathStructure,
@@ -149,6 +150,7 @@ const App: React.FC = () => {
             <Route exact strict path="/send" component={RedirectPathToSwapOnly} />
             <Route exact strict path="/find" component={PoolFinder} />
             <Route exact strict path="/liquidity" component={Liquidity} />
+            <Route exact strict path="/dashboard" component={Dashboard} />
             <Route exact strict path="/create" component={RedirectToAddLiquidity} />
             <Route exact path="/add" component={AddLiquidity} />
             <Route exact path="/add/:currencyIdA" component={RedirectOldAddLiquidityPathStructure} />
